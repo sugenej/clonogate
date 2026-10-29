@@ -19,8 +19,8 @@ What the evidence supports, and what it does not:
 
 ## Reproducing
 Scripts add `model/` to the path relative to the repo. Input data are **not** included: SMC-Het benchmark files and
-the GIAB reads must be obtained separately (GIAB: HG002/HG003 v4.2.1 benchmark and reads; set `GIAB_DIR`, `HAPMAP_DIR`).
+the GIAB reads must be obtained separately; see `DATA.md` for sources and expected layout (set `GIAB_DIR`, `HAPMAP_DIR`).
 Environment pinning and a clean end-to-end run have not been done yet.
 
 ## License
-Not yet chosen.
+MIT for the code (see `LICENSE`). Datasets keep their own terms; see `DATA.md`.
